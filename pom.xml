@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.shuai</groupId>
+    <artifactId>springcloud</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>user-api-gateway</module>
+        <module>user-api-gateway-dynamic-filter</module>
+        <module>user-api-gateway-dynamic-route</module>
+        <module>user-cloud-provider</module>
+        <module>user-cloud-rabbitmq</module>
+        <module>user-config-client</module>
+        <module>user-config-server</module>
+        <module>user-eureka-server</module>
+        <module>user-fegin-customer</module>
+        <module>user-hystrix-dashboard</module>
+        <module>user-ribbon-customer</module>
+        <module>user-service-api</module>
+        <module>user-stream-hello</module>
+        <module>user-trace-1</module>
+        <module>user-trace-2</module>
+        <module>user-turbine</module>
+        <module>user-turbine-amq</module>
+        <module>user-zipkin-server</module>
+    </modules>
+
+
+</project>

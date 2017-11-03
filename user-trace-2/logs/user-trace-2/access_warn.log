@@ -1,0 +1,11 @@
+2017-11-02 14:25:44 9466 [main] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2017-11-02 14:25:44 9482 [main] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2017-11-02 14:25:48 13149 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sleuthStreamSpanReporter' defined in class path resource [org/springframework/cloud/sleuth/stream/SleuthStreamAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sleuthStreamSpanReporter' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.cloud.sleuth.stream.HostLocator' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2017-11-02 14:52:58 9064 [main] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2017-11-02 14:52:58 9073 [main] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2017-11-02 14:56:06 197560 [Thread-25] WARN  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1509605766915, current=DOWN, previous=UP]
+2017-11-02 14:56:19 9397 [main] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2017-11-02 14:56:19 9405 [main] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2017-11-02 16:34:20 5890774 [Thread-25] WARN  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1509611660459, current=DOWN, previous=UP]
+2017-11-02 16:34:20 5890792 [Thread-25] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused
+2017-11-02 16:34:20 5890794 [Thread-25] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused

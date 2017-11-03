@@ -1,0 +1,893 @@
+2017-11-02 14:25:36 1416 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@385e9564: startup date [Thu Nov 02 14:25:36 CST 2017]; root of context hierarchy
+2017-11-02 14:25:37 1920 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-11-02 14:25:37 2032 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-02 14:25:37 2075 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$63a39de8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:25:38 2629 [main] INFO  c.s.u.UserTrace2Application - No active profile set, falling back to default profiles: default
+2017-11-02 14:25:38 2652 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@60975100: startup date [Thu Nov 02 14:25:38 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@385e9564
+2017-11-02 14:25:39 3761 [main] INFO  o.s.i.config.IntegrationRegistrar - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2017-11-02 14:25:39 3935 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory - Overriding bean definition for bean 'zipkinEndpointLocator' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.sleuth.stream.SleuthStreamAutoConfiguration$DefaultEndpointLocatorConfiguration; factoryMethodName=zipkinEndpointLocator; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/sleuth/stream/SleuthStreamAutoConfiguration$DefaultEndpointLocatorConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.sleuth.zipkin.ZipkinAutoConfiguration$DefaultEndpointLocatorConfiguration; factoryMethodName=zipkinEndpointLocator; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/sleuth/zipkin/ZipkinAutoConfiguration$DefaultEndpointLocatorConfiguration.class]]
+2017-11-02 14:25:39 4392 [main] INFO  o.s.c.context.scope.GenericScope - BeanFactory id=d25f8d8b-e8dc-3d29-9e3a-db9377876454
+2017-11-02 14:25:39 4413 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2017-11-02 14:25:39 4418 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2017-11-02 14:25:39 4430 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-02 14:25:40 4511 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$df55919] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:25:40 4622 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport$$EnhancerBySpringCGLIB$$84cb38ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:25:40 4748 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration' of type [org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration$$EnhancerBySpringCGLIB$$49eee11d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:25:40 5127 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sleuthAdvisorConfig' of type [org.springframework.cloud.sleuth.annotation.SleuthAdvisorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:25:40 5135 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$79b6412c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:25:40 5251 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationGlobalProperties' of type [org.springframework.beans.factory.config.PropertiesFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:25:40 5274 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationGlobalProperties' of type [java.util.Properties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:25:41 5513 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$63a39de8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:25:41 5555 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.stream.config.BindingServiceConfiguration$PostProcessorConfiguration' of type [org.springframework.cloud.stream.config.BindingServiceConfiguration$PostProcessorConfiguration$$EnhancerBySpringCGLIB$$95138f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:25:41 5647 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$$EnhancerBySpringCGLIB$$2f6d470a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:25:42 6788 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9102 (http)
+2017-11-02 14:25:42 6804 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2017-11-02 14:25:42 6808 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-11-02 14:25:42 6992 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-11-02 14:25:42 6993 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4341 ms
+2017-11-02 14:25:43 8122 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'metricsFilter' to: [/*]
+2017-11-02 14:25:43 8122 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-02 14:25:43 8123 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'traceFilter' to: [/*]
+2017-11-02 14:25:43 8123 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-02 14:25:43 8123 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-02 14:25:43 8123 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-02 14:25:43 8123 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2017-11-02 14:25:43 8123 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'applicationContextIdFilter' to: [/*]
+2017-11-02 14:25:43 8124 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-02 14:25:44 9466 [main] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2017-11-02 14:25:44 9466 [main] INFO  c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-11-02 14:25:44 9482 [main] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2017-11-02 14:25:44 9484 [main] INFO  c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-11-02 14:25:45 10131 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@60975100: startup date [Thu Nov 02 14:25:38 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@385e9564
+2017-11-02 14:25:45 10302 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/tract2]}" onto public java.lang.String com.shuai.usertrace2.UserTrace2Application.tract2()
+2017-11-02 14:25:45 10304 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-11-02 14:25:45 10305 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-11-02 14:25:45 10441 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-02 14:25:45 10441 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-02 14:25:46 10538 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-02 14:25:47 11920 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService  'taskScheduler'
+2017-11-02 14:25:48 12571 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:25:48 12572 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2017-11-02 14:25:48 12572 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:25:48 12573 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2017-11-02 14:25:48 12573 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/service-registry/instance-status],methods=[GET]}" onto public org.springframework.http.ResponseEntity org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.getStatus()
+2017-11-02 14:25:48 12573 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/service-registry/instance-status],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.setStatus(java.lang.String)
+2017-11-02 14:25:48 12574 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2017-11-02 14:25:48 12574 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/channels || /channels.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:25:48 12575 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2017-11-02 14:25:48 12576 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2017-11-02 14:25:48 12577 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2017-11-02 14:25:48 12577 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:25:48 12577 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2017-11-02 14:25:48 12579 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:25:48 12579 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:25:48 12580 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2017-11-02 14:25:48 12580 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:25:48 12581 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:25:48 12581 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:25:48 12582 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2017-11-02 14:25:48 12582 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2017-11-02 14:25:48 12583 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:25:48 12583 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2017-11-02 14:25:48 12584 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2017-11-02 14:25:48 12584 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2017-11-02 14:25:48 12585 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:25:48 12585 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:25:48 12585 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:25:48 13149 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sleuthStreamSpanReporter' defined in class path resource [org/springframework/cloud/sleuth/stream/SleuthStreamAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sleuthStreamSpanReporter' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.cloud.sleuth.stream.HostLocator' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2017-11-02 14:25:48 13151 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-11-02 14:25:48 13151 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2017-11-02 14:25:48 13152 [main] INFO  o.s.i.m.IntegrationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-11-02 14:25:48 13152 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-11-02 14:25:48 13155 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2017-11-02 14:25:48 13177 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-11-02 14:25:48 13314 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method sleuthStreamSpanReporter in org.springframework.cloud.sleuth.stream.SleuthStreamAutoConfiguration required a bean of type 'org.springframework.cloud.sleuth.stream.HostLocator' that could not be found.
+	- Bean method 'zipkinEndpointLocator' not loaded because @ConditionalOnProperty (spring.zipkin.locator.discovery.enabled=true) did not find property 'spring.zipkin.locator.discovery.enabled'
+
+
+Action:
+
+Consider revisiting the conditions above or defining a bean of type 'org.springframework.cloud.sleuth.stream.HostLocator' in your configuration.
+
+2017-11-02 14:52:51 1766 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@43c1b556: startup date [Thu Nov 02 14:52:51 CST 2017]; root of context hierarchy
+2017-11-02 14:52:51 1996 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-02 14:52:51 2029 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$27ead844] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:52:51 2031 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-11-02 14:52:52 3322 [main] INFO  c.s.u.UserTrace2Application - No active profile set, falling back to default profiles: default
+2017-11-02 14:52:52 3336 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4983159f: startup date [Thu Nov 02 14:52:52 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@43c1b556
+2017-11-02 14:52:53 3964 [main] INFO  o.s.i.config.IntegrationRegistrar - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2017-11-02 14:52:53 4349 [main] INFO  o.s.c.context.scope.GenericScope - BeanFactory id=d52865f7-606a-305c-8d67-c7c1ea170806
+2017-11-02 14:52:53 4364 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2017-11-02 14:52:53 4366 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2017-11-02 14:52:53 4376 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-02 14:52:53 4432 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$d23c9375] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:52:53 4500 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport$$EnhancerBySpringCGLIB$$4912730a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:52:53 4592 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration' of type [org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration$$EnhancerBySpringCGLIB$$e361b79] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:52:54 4784 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sleuthAdvisorConfig' of type [org.springframework.cloud.sleuth.annotation.SleuthAdvisorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:52:54 4790 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$3dfd7b88] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:52:54 4876 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationGlobalProperties' of type [org.springframework.beans.factory.config.PropertiesFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:52:54 4898 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationGlobalProperties' of type [java.util.Properties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:52:54 5031 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$27ead844] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:52:54 5060 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.stream.config.BindingServiceConfiguration$PostProcessorConfiguration' of type [org.springframework.cloud.stream.config.BindingServiceConfiguration$PostProcessorConfiguration$$EnhancerBySpringCGLIB$$cd98734c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:52:54 5146 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$$EnhancerBySpringCGLIB$$f3b48166] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:52:54 5628 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9102 (http)
+2017-11-02 14:52:55 5728 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2017-11-02 14:52:55 5729 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-11-02 14:52:55 5838 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-11-02 14:52:55 5838 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2502 ms
+2017-11-02 14:52:55 6498 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'metricsFilter' to: [/*]
+2017-11-02 14:52:55 6498 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-02 14:52:55 6499 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'traceFilter' to: [/*]
+2017-11-02 14:52:55 6499 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-02 14:52:55 6499 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-02 14:52:55 6499 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-02 14:52:55 6499 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2017-11-02 14:52:55 6499 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'applicationContextIdFilter' to: [/*]
+2017-11-02 14:52:55 6500 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-02 14:52:57 7713 [main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2017-11-02 14:52:58 9064 [main] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2017-11-02 14:52:58 9064 [main] INFO  c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-11-02 14:52:58 9073 [main] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2017-11-02 14:52:58 9074 [main] INFO  c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-11-02 14:52:59 10045 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4983159f: startup date [Thu Nov 02 14:52:52 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@43c1b556
+2017-11-02 14:52:59 10351 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/tract2]}" onto public java.lang.String com.shuai.usertrace2.UserTrace2Application.tract2()
+2017-11-02 14:52:59 10355 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-11-02 14:52:59 10356 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-11-02 14:52:59 10620 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-02 14:52:59 10620 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-02 14:53:00 10788 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-02 14:53:02 13205 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService  'taskScheduler'
+2017-11-02 14:53:03 14142 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:53:03 14144 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2017-11-02 14:53:03 14146 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:53:03 14146 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2017-11-02 14:53:03 14147 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2017-11-02 14:53:03 14148 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:53:03 14150 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2017-11-02 14:53:03 14150 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2017-11-02 14:53:03 14151 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:53:03 14151 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2017-11-02 14:53:03 14152 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2017-11-02 14:53:03 14153 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2017-11-02 14:53:03 14153 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:53:03 14155 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2017-11-02 14:53:03 14156 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:53:03 14157 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2017-11-02 14:53:03 14157 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:53:03 14158 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:53:03 14158 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:53:03 14159 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/service-registry/instance-status],methods=[GET]}" onto public org.springframework.http.ResponseEntity org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.getStatus()
+2017-11-02 14:53:03 14159 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/service-registry/instance-status],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.setStatus(java.lang.String)
+2017-11-02 14:53:03 14160 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:53:03 14160 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2017-11-02 14:53:03 14161 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:53:03 14162 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/channels || /channels.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:53:03 14164 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2017-11-02 14:53:03 14165 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:53:03 14165 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2017-11-02 14:53:04 15260 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 
+2017-11-02 14:53:04 15408 [main] INFO  o.s.i.c.kryo.CompositeKryoRegistrar - configured Kryo registration [40, java.io.File] with serializer org.springframework.integration.codec.kryo.FileSerializer
+2017-11-02 14:53:05 15657 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-11-02 14:53:05 15672 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2017-11-02 14:53:05 15673 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2017-11-02 14:53:05 15674 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'integrationMbeanExporter' has been autodetected for JMX exposure
+2017-11-02 14:53:05 15675 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2017-11-02 14:53:05 15676 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2017-11-02 14:53:05 15676 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2017-11-02 14:53:05 15677 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'serviceRegistryEndpoint' has been autodetected for JMX exposure
+2017-11-02 14:53:05 15678 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2017-11-02 14:53:05 15683 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2017-11-02 14:53:05 15699 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2017-11-02 14:53:05 15710 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'serviceRegistryEndpoint': registering with JMX server as MBean [org.springframework.cloud.client.serviceregistry.endpoint:name=serviceRegistryEndpoint,type=ServiceRegistryEndpoint]
+2017-11-02 14:53:05 15718 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2017-11-02 14:53:05 15730 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'integrationMbeanExporter': registering with JMX server as MBean [org.springframework.integration.monitor:name=integrationMbeanExporter,type=IntegrationMBeanExporter]
+2017-11-02 14:53:05 15755 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=4983159f,type=ConfigurationPropertiesRebinder]
+2017-11-02 14:53:05 15759 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2017-11-02 14:53:05 15766 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2017-11-02 14:53:05 15774 [main] INFO  o.s.i.m.IntegrationMBeanExporter - Registering beans for JMX exposure on startup
+2017-11-02 14:53:05 15774 [main] INFO  o.s.i.m.IntegrationMBeanExporter - Registering MessageChannel sleuth
+2017-11-02 14:53:05 15778 [main] INFO  o.s.i.m.IntegrationMBeanExporter - Located managed bean 'org.springframework.integration:type=MessageChannel,name=sleuth': registering with JMX server as MBean [org.springframework.integration:type=MessageChannel,name=sleuth]
+2017-11-02 14:53:05 15825 [main] INFO  o.s.i.m.IntegrationMBeanExporter - Registering MessageChannel nullChannel
+2017-11-02 14:53:05 15826 [main] INFO  o.s.i.m.IntegrationMBeanExporter - Located managed bean 'org.springframework.integration:type=MessageChannel,name=nullChannel': registering with JMX server as MBean [org.springframework.integration:type=MessageChannel,name=nullChannel]
+2017-11-02 14:53:05 15840 [main] INFO  o.s.i.m.IntegrationMBeanExporter - Registering MessageChannel errorChannel
+2017-11-02 14:53:05 15842 [main] INFO  o.s.i.m.IntegrationMBeanExporter - Located managed bean 'org.springframework.integration:type=MessageChannel,name=errorChannel': registering with JMX server as MBean [org.springframework.integration:type=MessageChannel,name=errorChannel]
+2017-11-02 14:53:05 15886 [main] INFO  o.s.i.m.IntegrationMBeanExporter - Registering MessageHandler errorLogger
+2017-11-02 14:53:05 15888 [main] INFO  o.s.i.m.IntegrationMBeanExporter - Located managed bean 'org.springframework.integration:type=MessageHandler,name=errorLogger,bean=internal': registering with JMX server as MBean [org.springframework.integration:type=MessageHandler,name=errorLogger,bean=internal]
+2017-11-02 14:53:05 15912 [main] INFO  o.s.i.m.IntegrationMBeanExporter - Registering MessageSource sleuthStreamSpanReporter.poll.inboundChannelAdapter
+2017-11-02 14:53:05 15914 [main] INFO  o.s.i.m.IntegrationMBeanExporter - Located managed bean 'org.springframework.integration:type=MessageSource,name=sleuthStreamSpanReporter.poll.inboundChannelAdapter,bean=endpoint': registering with JMX server as MBean [org.springframework.integration:type=MessageSource,name=sleuthStreamSpanReporter.poll.inboundChannelAdapter,bean=endpoint]
+2017-11-02 14:53:05 15934 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Registering beans for JMX exposure on startup
+2017-11-02 14:53:05 16220 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase -2147482648
+2017-11-02 14:53:06 17318 [main] INFO  c.s.u.UserTrace2Application - No active profile set, falling back to default profiles: default
+2017-11-02 14:53:06 17322 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@10bf2185: startup date [Thu Nov 02 14:53:06 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4983159f
+2017-11-02 14:53:06 17371 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-02 14:53:06 17434 [main] INFO  o.s.c.s.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@7c3c6564: startup date [Thu Nov 02 14:53:06 CST 2017]; root of context hierarchy
+2017-11-02 14:53:06 17473 [main] INFO  c.s.u.UserTrace2Application - Started UserTrace2Application in 1.235 seconds (JVM running for 17.734)
+2017-11-02 14:53:06 17632 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#3979ff82:0/SimpleConnection@5ac3c6cd [delegate=amqp://springcloud@127.0.0.1:5672/, localPort= 53313]
+2017-11-02 14:53:07 17682 [main] INFO  o.s.i.channel.DirectChannel - Channel 'user-trace-2:9102.sleuth' has 1 subscriber(s).
+2017-11-02 14:53:07 17683 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 0
+2017-11-02 14:53:07 17696 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2017-11-02 14:53:07 17781 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2017-11-02 14:53:07 18049 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2017-11-02 14:53:07 18049 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2017-11-02 14:53:07 18179 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2017-11-02 14:53:07 18179 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2017-11-02 14:53:07 18423 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2017-11-02 14:53:07 18451 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2017-11-02 14:53:07 18451 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2017-11-02 14:53:07 18451 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2017-11-02 14:53:07 18451 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2017-11-02 14:53:07 18451 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2017-11-02 14:53:07 18452 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2017-11-02 14:53:07 18452 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2017-11-02 14:53:08 18874 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2017-11-02 14:53:08 18875 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2017-11-02 14:53:08 18877 [main] INFO  c.n.d.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2017-11-02 14:53:08 18880 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1509605588234 with initial instances count: 0
+2017-11-02 14:53:08 19108 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application user-trace-2 with eureka with status UP
+2017-11-02 14:53:08 19109 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1509605588464, current=UP, previous=STARTING]
+2017-11-02 14:53:08 19110 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USER-TRACE-2/localhost:user-trace-2:9102: registering service...
+2017-11-02 14:53:08 19128 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+2017-11-02 14:53:08 19144 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+2017-11-02 14:53:08 19152 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+2017-11-02 14:53:08 19155 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2017-11-02 14:53:08 19157 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2017-11-02 14:53:08 19160 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2017-11-02 14:53:08 19164 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2017-11-02 14:53:08 19170 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2017-11-02 14:53:08 19175 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+2017-11-02 14:53:08 19184 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2017-11-02 14:53:08 19190 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2017-11-02 14:53:08 19195 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2017-11-02 14:53:08 19197 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2017-11-02 14:53:08 19200 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2017-11-02 14:53:08 19205 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'channelsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=channelsEndpoint]
+2017-11-02 14:53:08 19209 [main] INFO  o.s.i.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2017-11-02 14:53:08 19209 [main] INFO  o.s.i.c.PublishSubscribeChannel - Channel 'user-trace-2:9102.errorChannel' has 1 subscriber(s).
+2017-11-02 14:53:08 19209 [main] INFO  o.s.i.endpoint.EventDrivenConsumer - started _org.springframework.integration.errorLogger
+2017-11-02 14:53:08 19248 [main] INFO  o.s.i.e.SourcePollingChannelAdapter - started sleuthStreamSpanReporter.poll.inboundChannelAdapter
+2017-11-02 14:53:08 19248 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 2147482647
+2017-11-02 14:53:08 19248 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2017-11-02 14:53:08 19292 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9102"]
+2017-11-02 14:53:08 19306 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9102"]
+2017-11-02 14:53:08 19308 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USER-TRACE-2/localhost:user-trace-2:9102 - registration status: 204
+2017-11-02 14:53:08 19336 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-11-02 14:53:08 19371 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9102 (http)
+2017-11-02 14:53:08 19373 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9102
+2017-11-02 14:53:08 19378 [main] INFO  c.s.u.UserTrace2Application - Started UserTrace2Application in 19.135 seconds (JVM running for 19.638)
+2017-11-02 14:53:38 48877 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2017-11-02 14:53:38 48877 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2017-11-02 14:53:38 48877 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2017-11-02 14:53:38 48877 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2017-11-02 14:53:38 48877 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2017-11-02 14:53:38 48877 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: false
+2017-11-02 14:53:38 48877 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2017-11-02 14:53:38 48915 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2017-11-02 14:56:06 197557 [Thread-25] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4983159f: startup date [Thu Nov 02 14:52:52 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@43c1b556
+2017-11-02 14:56:06 197560 [Thread-25] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application user-trace-2 with eureka with status DOWN
+2017-11-02 14:56:06 197560 [Thread-25] WARN  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1509605766915, current=DOWN, previous=UP]
+2017-11-02 14:56:06 197560 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USER-TRACE-2/localhost:user-trace-2:9102: registering service...
+2017-11-02 14:56:06 197561 [Thread-25] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2017-11-02 14:56:06 197561 [Thread-25] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2017-11-02 14:56:06 197569 [Thread-25] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USER-TRACE-2/localhost:user-trace-2:9102 - deregister  status: 200
+2017-11-02 14:56:06 197573 [Thread-25] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2017-11-02 14:56:06 197574 [Thread-25] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@10bf2185: startup date [Thu Nov 02 14:53:06 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4983159f
+2017-11-02 14:56:06 197576 [Thread-25] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application user-trace-2 with eureka with status DOWN
+2017-11-02 14:56:06 197581 [Thread-25] INFO  o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+2017-11-02 14:56:06 197581 [Thread-25] INFO  o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147482647
+2017-11-02 14:56:06 197582 [Thread-25] INFO  o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 0
+2017-11-02 14:56:06 197582 [Thread-25] INFO  o.s.i.endpoint.EventDrivenConsumer - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2017-11-02 14:56:06 197584 [Thread-25] INFO  o.s.i.c.PublishSubscribeChannel - Channel 'user-trace-2:9102.errorChannel' has 0 subscriber(s).
+2017-11-02 14:56:06 197584 [Thread-25] INFO  o.s.i.endpoint.EventDrivenConsumer - stopped _org.springframework.integration.errorLogger
+2017-11-02 14:56:06 197584 [Thread-25] INFO  o.s.i.e.SourcePollingChannelAdapter - stopped sleuthStreamSpanReporter.poll.inboundChannelAdapter
+2017-11-02 14:56:06 197584 [Thread-25] INFO  o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase -2147482648
+2017-11-02 14:56:06 197589 [Thread-25] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-11-02 14:56:06 197589 [Thread-25] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Unregistering JMX-exposed beans
+2017-11-02 14:56:06 197590 [Thread-25] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2017-11-02 14:56:06 197594 [Thread-25] INFO  o.s.i.m.IntegrationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-11-02 14:56:06 197594 [Thread-25] INFO  o.s.i.m.IntegrationMBeanExporter - Unregistering JMX-exposed beans
+2017-11-02 14:56:06 197594 [Thread-25] INFO  o.s.i.m.IntegrationMBeanExporter - Summary on shutdown: sleuth
+2017-11-02 14:56:06 197594 [Thread-25] INFO  o.s.i.m.IntegrationMBeanExporter - Summary on shutdown: nullChannel
+2017-11-02 14:56:06 197595 [Thread-25] INFO  o.s.i.m.IntegrationMBeanExporter - Summary on shutdown: errorChannel
+2017-11-02 14:56:06 197595 [Thread-25] INFO  o.s.i.m.IntegrationMBeanExporter - Summary on shutdown: _org.springframework.integration.errorLogger.handler
+2017-11-02 14:56:06 197595 [Thread-25] INFO  o.s.i.m.IntegrationMBeanExporter - Summary on shutdown: org.springframework.integration.endpoint.MethodInvokingMessageSource@a479c0c
+2017-11-02 14:56:06 197595 [Thread-25] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-11-02 14:56:06 197595 [Thread-25] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2017-11-02 14:56:11 1685 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@43c1b556: startup date [Thu Nov 02 14:56:11 CST 2017]; root of context hierarchy
+2017-11-02 14:56:11 2230 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-11-02 14:56:12 2318 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-02 14:56:12 2411 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f3f6c3e5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:56:12 2963 [main] INFO  c.s.u.UserTrace2Application - No active profile set, falling back to default profiles: default
+2017-11-02 14:56:12 2992 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2f48b3d2: startup date [Thu Nov 02 14:56:12 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@43c1b556
+2017-11-02 14:56:13 4276 [main] INFO  o.s.i.config.IntegrationRegistrar - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2017-11-02 14:56:14 5123 [main] INFO  o.s.c.context.scope.GenericScope - BeanFactory id=d52865f7-606a-305c-8d67-c7c1ea170806
+2017-11-02 14:56:14 5158 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2017-11-02 14:56:14 5163 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2017-11-02 14:56:14 5179 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-02 14:56:14 5251 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$9e487f16] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:56:15 5386 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport$$EnhancerBySpringCGLIB$$151e5eab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:56:15 5515 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration' of type [org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration$$EnhancerBySpringCGLIB$$da42071a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:56:15 5834 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sleuthAdvisorConfig' of type [org.springframework.cloud.sleuth.annotation.SleuthAdvisorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:56:15 5849 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$a096729] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:56:15 5946 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationGlobalProperties' of type [org.springframework.beans.factory.config.PropertiesFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:56:15 5971 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationGlobalProperties' of type [java.util.Properties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:56:15 6169 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f3f6c3e5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:56:15 6217 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.stream.config.BindingServiceConfiguration$PostProcessorConfiguration' of type [org.springframework.cloud.stream.config.BindingServiceConfiguration$PostProcessorConfiguration$$EnhancerBySpringCGLIB$$99a45eed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:56:15 6305 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$$EnhancerBySpringCGLIB$$bfc06d07] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-02 14:56:16 7115 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9102 (http)
+2017-11-02 14:56:16 7238 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2017-11-02 14:56:16 7239 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-11-02 14:56:17 7423 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-11-02 14:56:17 7423 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4431 ms
+2017-11-02 14:56:18 8431 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'metricsFilter' to: [/*]
+2017-11-02 14:56:18 8432 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-02 14:56:18 8432 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'traceFilter' to: [/*]
+2017-11-02 14:56:18 8432 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-02 14:56:18 8433 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-02 14:56:18 8433 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-02 14:56:18 8433 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2017-11-02 14:56:18 8433 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'applicationContextIdFilter' to: [/*]
+2017-11-02 14:56:18 8434 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-02 14:56:19 9397 [main] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2017-11-02 14:56:19 9397 [main] INFO  c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-11-02 14:56:19 9405 [main] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2017-11-02 14:56:19 9405 [main] INFO  c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-11-02 14:56:19 10163 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2f48b3d2: startup date [Thu Nov 02 14:56:12 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@43c1b556
+2017-11-02 14:56:20 10365 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/tract2]}" onto public java.lang.String com.shuai.usertrace2.UserTrace2Application.tract2()
+2017-11-02 14:56:20 10368 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-11-02 14:56:20 10368 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-11-02 14:56:20 10526 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-02 14:56:20 10527 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-02 14:56:20 10639 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-02 14:56:22 12316 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService  'taskScheduler'
+2017-11-02 14:56:22 13114 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2017-11-02 14:56:22 13114 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2017-11-02 14:56:22 13115 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:56:22 13115 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2017-11-02 14:56:22 13116 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2017-11-02 14:56:22 13117 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:56:22 13118 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2017-11-02 14:56:22 13118 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:56:22 13119 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:56:22 13120 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:56:22 13121 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:56:22 13122 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:56:22 13122 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:56:22 13123 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2017-11-02 14:56:22 13123 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2017-11-02 14:56:22 13124 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:56:22 13124 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/service-registry/instance-status],methods=[GET]}" onto public org.springframework.http.ResponseEntity org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.getStatus()
+2017-11-02 14:56:22 13124 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/service-registry/instance-status],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.setStatus(java.lang.String)
+2017-11-02 14:56:22 13125 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2017-11-02 14:56:22 13126 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2017-11-02 14:56:22 13127 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/channels || /channels.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:56:22 13127 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2017-11-02 14:56:22 13128 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:56:22 13128 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2017-11-02 14:56:22 13129 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:56:22 13130 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2017-11-02 14:56:22 13130 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2017-11-02 14:56:22 13130 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-02 14:56:23 14262 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 
+2017-11-02 14:56:24 14473 [main] INFO  o.s.i.c.kryo.CompositeKryoRegistrar - configured Kryo registration [40, java.io.File] with serializer org.springframework.integration.codec.kryo.FileSerializer
+2017-11-02 14:56:24 14700 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-11-02 14:56:24 14709 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2017-11-02 14:56:24 14710 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2017-11-02 14:56:24 14711 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'integrationMbeanExporter' has been autodetected for JMX exposure
+2017-11-02 14:56:24 14712 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2017-11-02 14:56:24 14713 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2017-11-02 14:56:24 14713 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2017-11-02 14:56:24 14714 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'serviceRegistryEndpoint' has been autodetected for JMX exposure
+2017-11-02 14:56:24 14715 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2017-11-02 14:56:24 14720 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2017-11-02 14:56:24 14732 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2017-11-02 14:56:24 14742 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'serviceRegistryEndpoint': registering with JMX server as MBean [org.springframework.cloud.client.serviceregistry.endpoint:name=serviceRegistryEndpoint,type=ServiceRegistryEndpoint]
+2017-11-02 14:56:24 14748 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2017-11-02 14:56:24 14756 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'integrationMbeanExporter': registering with JMX server as MBean [org.springframework.integration.monitor:name=integrationMbeanExporter,type=IntegrationMBeanExporter]
+2017-11-02 14:56:24 14776 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=2f48b3d2,type=ConfigurationPropertiesRebinder]
+2017-11-02 14:56:24 14779 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2017-11-02 14:56:24 14784 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2017-11-02 14:56:24 14791 [main] INFO  o.s.i.m.IntegrationMBeanExporter - Registering beans for JMX exposure on startup
+2017-11-02 14:56:24 14792 [main] INFO  o.s.i.m.IntegrationMBeanExporter - Registering MessageChannel sleuth
+2017-11-02 14:56:24 14795 [main] INFO  o.s.i.m.IntegrationMBeanExporter - Located managed bean 'org.springframework.integration:type=MessageChannel,name=sleuth': registering with JMX server as MBean [org.springframework.integration:type=MessageChannel,name=sleuth]
+2017-11-02 14:56:24 14819 [main] INFO  o.s.i.m.IntegrationMBeanExporter - Registering MessageChannel nullChannel
+2017-11-02 14:56:24 14821 [main] INFO  o.s.i.m.IntegrationMBeanExporter - Located managed bean 'org.springframework.integration:type=MessageChannel,name=nullChannel': registering with JMX server as MBean [org.springframework.integration:type=MessageChannel,name=nullChannel]
+2017-11-02 14:56:24 14827 [main] INFO  o.s.i.m.IntegrationMBeanExporter - Registering MessageChannel errorChannel
+2017-11-02 14:56:24 14829 [main] INFO  o.s.i.m.IntegrationMBeanExporter - Located managed bean 'org.springframework.integration:type=MessageChannel,name=errorChannel': registering with JMX server as MBean [org.springframework.integration:type=MessageChannel,name=errorChannel]
+2017-11-02 14:56:24 14854 [main] INFO  o.s.i.m.IntegrationMBeanExporter - Registering MessageHandler errorLogger
+2017-11-02 14:56:24 14855 [main] INFO  o.s.i.m.IntegrationMBeanExporter - Located managed bean 'org.springframework.integration:type=MessageHandler,name=errorLogger,bean=internal': registering with JMX server as MBean [org.springframework.integration:type=MessageHandler,name=errorLogger,bean=internal]
+2017-11-02 14:56:24 14868 [main] INFO  o.s.i.m.IntegrationMBeanExporter - Registering MessageSource sleuthStreamSpanReporter.poll.inboundChannelAdapter
+2017-11-02 14:56:24 14870 [main] INFO  o.s.i.m.IntegrationMBeanExporter - Located managed bean 'org.springframework.integration:type=MessageSource,name=sleuthStreamSpanReporter.poll.inboundChannelAdapter,bean=endpoint': registering with JMX server as MBean [org.springframework.integration:type=MessageSource,name=sleuthStreamSpanReporter.poll.inboundChannelAdapter,bean=endpoint]
+2017-11-02 14:56:24 14878 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Registering beans for JMX exposure on startup
+2017-11-02 14:56:24 15052 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase -2147482648
+2017-11-02 14:56:24 15115 [main] INFO  c.s.u.UserTrace2Application - No active profile set, falling back to default profiles: default
+2017-11-02 14:56:24 15117 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@50720344: startup date [Thu Nov 02 14:56:24 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2f48b3d2
+2017-11-02 14:56:24 15153 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-02 14:56:24 15202 [main] INFO  o.s.c.s.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@712a5de4: startup date [Thu Nov 02 14:56:24 CST 2017]; root of context hierarchy
+2017-11-02 14:56:24 15230 [main] INFO  c.s.u.UserTrace2Application - Started UserTrace2Application in 0.165 seconds (JVM running for 15.571)
+2017-11-02 14:56:25 15326 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#47511582:0/SimpleConnection@6e6bb211 [delegate=amqp://springcloud@127.0.0.1:5672/, localPort= 53347]
+2017-11-02 14:56:25 15362 [main] INFO  o.s.i.channel.DirectChannel - Channel 'user-trace-2:9102.sleuth' has 1 subscriber(s).
+2017-11-02 14:56:25 15363 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 0
+2017-11-02 14:56:25 15370 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2017-11-02 14:56:25 15415 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2017-11-02 14:56:25 15566 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2017-11-02 14:56:25 15566 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2017-11-02 14:56:25 15667 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2017-11-02 14:56:25 15668 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2017-11-02 14:56:25 15814 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2017-11-02 14:56:25 15835 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2017-11-02 14:56:25 15835 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2017-11-02 14:56:25 15835 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2017-11-02 14:56:25 15835 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2017-11-02 14:56:25 15835 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2017-11-02 14:56:25 15835 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2017-11-02 14:56:25 15835 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2017-11-02 14:56:25 15988 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2017-11-02 14:56:25 15990 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2017-11-02 14:56:25 15992 [main] INFO  c.n.d.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2017-11-02 14:56:25 15994 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1509605785678 with initial instances count: 1
+2017-11-02 14:56:25 16233 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application user-trace-2 with eureka with status UP
+2017-11-02 14:56:25 16234 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1509605785919, current=UP, previous=STARTING]
+2017-11-02 14:56:25 16235 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USER-TRACE-2/172.27.35.92:user-trace-2:9102: registering service...
+2017-11-02 14:56:25 16241 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+2017-11-02 14:56:25 16253 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+2017-11-02 14:56:25 16261 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+2017-11-02 14:56:25 16264 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2017-11-02 14:56:25 16267 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2017-11-02 14:56:25 16270 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USER-TRACE-2/172.27.35.92:user-trace-2:9102 - registration status: 204
+2017-11-02 14:56:25 16271 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2017-11-02 14:56:25 16273 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2017-11-02 14:56:25 16276 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2017-11-02 14:56:25 16278 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+2017-11-02 14:56:25 16282 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2017-11-02 14:56:25 16284 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2017-11-02 14:56:25 16286 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2017-11-02 14:56:25 16288 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2017-11-02 14:56:25 16290 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2017-11-02 14:56:25 16292 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'channelsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=channelsEndpoint]
+2017-11-02 14:56:25 16293 [main] INFO  o.s.i.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2017-11-02 14:56:25 16293 [main] INFO  o.s.i.c.PublishSubscribeChannel - Channel 'user-trace-2:9102.errorChannel' has 1 subscriber(s).
+2017-11-02 14:56:25 16293 [main] INFO  o.s.i.endpoint.EventDrivenConsumer - started _org.springframework.integration.errorLogger
+2017-11-02 14:56:25 16307 [main] INFO  o.s.i.e.SourcePollingChannelAdapter - started sleuthStreamSpanReporter.poll.inboundChannelAdapter
+2017-11-02 14:56:25 16307 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 2147482647
+2017-11-02 14:56:25 16307 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2017-11-02 14:56:26 16339 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9102"]
+2017-11-02 14:56:26 16351 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9102"]
+2017-11-02 14:56:26 16365 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-11-02 14:56:26 16389 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9102 (http)
+2017-11-02 14:56:26 16390 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9102
+2017-11-02 14:56:26 16393 [main] INFO  c.s.u.UserTrace2Application - Started UserTrace2Application in 15.984 seconds (JVM running for 16.734)
+2017-11-02 14:57:44 95049 [http-nio-9102-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-11-02 14:57:44 95049 [http-nio-9102-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2017-11-02 14:57:44 95120 [http-nio-9102-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 71 ms
+2017-11-02 14:57:44 95177 [http-nio-9102-exec-1] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 14:57:48 99243 [http-nio-9102-exec-2] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 14:57:49 100215 [http-nio-9102-exec-3] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 14:57:50 101036 [http-nio-9102-exec-4] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 14:58:22 132651 [http-nio-9102-exec-6] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:01:25 315830 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2017-11-02 15:02:30 380803 [http-nio-9102-exec-8] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:02:30 381091 [http-nio-9102-exec-9] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:02:30 381262 [http-nio-9102-exec-10] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:02:31 381451 [http-nio-9102-exec-1] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:02:31 381693 [http-nio-9102-exec-2] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:02:31 381895 [http-nio-9102-exec-3] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:02:31 382174 [http-nio-9102-exec-4] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:02:31 382310 [http-nio-9102-exec-5] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:02:32 382486 [http-nio-9102-exec-6] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:02:32 382636 [http-nio-9102-exec-7] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:02:32 382803 [http-nio-9102-exec-8] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:02:32 383080 [http-nio-9102-exec-9] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:02:32 383236 [http-nio-9102-exec-10] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:02:33 383385 [http-nio-9102-exec-1] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:02:33 383601 [http-nio-9102-exec-2] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:02:33 383820 [http-nio-9102-exec-3] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:02:33 383990 [http-nio-9102-exec-4] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:02:33 384152 [http-nio-9102-exec-5] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:02:33 384313 [http-nio-9102-exec-6] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:02:34 384476 [http-nio-9102-exec-7] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:02:34 384752 [http-nio-9102-exec-8] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:02:34 384910 [http-nio-9102-exec-9] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:02:34 385196 [http-nio-9102-exec-10] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:02:35 385347 [http-nio-9102-exec-1] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:02:35 385504 [http-nio-9102-exec-2] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:02:35 385654 [http-nio-9102-exec-3] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:02:35 385843 [http-nio-9102-exec-4] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:02:37 388314 [http-nio-9102-exec-5] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:05:23 553691 [http-nio-9102-exec-7] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:05:24 554723 [http-nio-9102-exec-8] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:05:24 554900 [http-nio-9102-exec-9] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:05:24 555065 [http-nio-9102-exec-10] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:05:24 555239 [http-nio-9102-exec-1] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:05:25 555499 [http-nio-9102-exec-2] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:05:25 556128 [http-nio-9102-exec-3] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:05:25 556300 [http-nio-9102-exec-4] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:05:26 556499 [http-nio-9102-exec-5] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:05:26 556760 [http-nio-9102-exec-6] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:05:26 556924 [http-nio-9102-exec-7] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:05:26 557092 [http-nio-9102-exec-8] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:05:26 557234 [http-nio-9102-exec-9] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:05:36 567312 [http-nio-9102-exec-1] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:05:37 567494 [http-nio-9102-exec-2] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:05:37 567663 [http-nio-9102-exec-3] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:05:37 567896 [http-nio-9102-exec-4] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:05:37 568045 [http-nio-9102-exec-5] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:05:37 568206 [http-nio-9102-exec-6] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:05:38 568362 [http-nio-9102-exec-7] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:05:38 568522 [http-nio-9102-exec-8] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:05:38 568668 [http-nio-9102-exec-9] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:05:38 568934 [http-nio-9102-exec-10] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:05:38 569078 [http-nio-9102-exec-1] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:05:38 569234 [http-nio-9102-exec-2] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:06:25 615825 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2017-11-02 15:11:25 915818 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2017-11-02 15:16:25 1215809 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2017-11-02 15:21:25 1515798 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2017-11-02 15:26:25 1815788 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2017-11-02 15:31:25 2115782 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2017-11-02 15:36:25 2415774 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2017-11-02 15:41:25 2715768 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2017-11-02 15:46:25 3015759 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2017-11-02 15:51:25 3315752 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2017-11-02 15:56:25 3615744 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2017-11-02 15:58:18 3728802 [http-nio-9102-exec-4] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:58:22 3732930 [http-nio-9102-exec-5] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:58:22 3733093 [http-nio-9102-exec-6] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:58:23 3733364 [http-nio-9102-exec-7] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:58:23 3733549 [http-nio-9102-exec-8] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:58:23 3733805 [http-nio-9102-exec-9] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:58:23 3734096 [http-nio-9102-exec-10] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:58:23 3734272 [http-nio-9102-exec-1] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:58:24 3734486 [http-nio-9102-exec-2] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:58:24 3734636 [http-nio-9102-exec-3] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 15:58:24 3734797 [http-nio-9102-exec-4] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:00:58 3889306 [http-nio-9102-exec-6] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:00:59 3889554 [http-nio-9102-exec-7] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:00:59 3889715 [http-nio-9102-exec-8] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:00:59 3889982 [http-nio-9102-exec-9] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:00:59 3890146 [http-nio-9102-exec-10] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:01:00 3890399 [http-nio-9102-exec-1] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:01:00 3890819 [http-nio-9102-exec-2] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:01:00 3890983 [http-nio-9102-exec-3] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:01:00 3891181 [http-nio-9102-exec-4] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:01:01 3891333 [http-nio-9102-exec-5] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:01:01 3891459 [http-nio-9102-exec-6] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:01:25 3915735 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2017-11-02 16:02:15 3966040 [http-nio-9102-exec-8] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:02:15 3966255 [http-nio-9102-exec-9] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:02:16 3966424 [http-nio-9102-exec-10] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:02:16 3966660 [http-nio-9102-exec-1] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:02:16 3966822 [http-nio-9102-exec-2] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:02:16 3966981 [http-nio-9102-exec-3] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:02:16 3967210 [http-nio-9102-exec-4] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:02:17 3967360 [http-nio-9102-exec-5] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:02:17 3967494 [http-nio-9102-exec-6] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:02:17 3967753 [http-nio-9102-exec-7] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:02:17 3967899 [http-nio-9102-exec-8] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:02:17 3968053 [http-nio-9102-exec-9] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:02:17 3968167 [http-nio-9102-exec-10] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:02:18 3968321 [http-nio-9102-exec-1] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:02:18 3968479 [http-nio-9102-exec-2] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:02:18 3968662 [http-nio-9102-exec-3] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:02:18 3968876 [http-nio-9102-exec-4] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:02:18 3969032 [http-nio-9102-exec-5] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:02:18 3969191 [http-nio-9102-exec-6] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:02:19 3969338 [http-nio-9102-exec-7] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:02:19 3969619 [http-nio-9102-exec-8] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:02:19 3969790 [http-nio-9102-exec-9] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:02:19 3970033 [http-nio-9102-exec-10] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:02:19 3970175 [http-nio-9102-exec-1] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:02:20 3970327 [http-nio-9102-exec-2] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:03:23 4034150 [http-nio-9102-exec-4] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:03:24 4034335 [http-nio-9102-exec-5] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:03:24 4034483 [http-nio-9102-exec-6] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:03:24 4034740 [http-nio-9102-exec-7] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:03:24 4034921 [http-nio-9102-exec-8] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:03:24 4035117 [http-nio-9102-exec-9] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:03:24 4035273 [http-nio-9102-exec-10] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:03:25 4035423 [http-nio-9102-exec-1] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:03:25 4035556 [http-nio-9102-exec-2] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:03:25 4035710 [http-nio-9102-exec-3] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:03:25 4035958 [http-nio-9102-exec-4] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:03:25 4036115 [http-nio-9102-exec-5] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:03:25 4036264 [http-nio-9102-exec-6] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:03:26 4036493 [http-nio-9102-exec-7] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:03:26 4036644 [http-nio-9102-exec-8] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:03:26 4036898 [http-nio-9102-exec-9] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:03:26 4037079 [http-nio-9102-exec-10] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:03:26 4037285 [http-nio-9102-exec-1] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:03:27 4037424 [http-nio-9102-exec-2] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:03:27 4037605 [http-nio-9102-exec-3] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:03:27 4037819 [http-nio-9102-exec-4] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:03:27 4038008 [http-nio-9102-exec-5] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:47 4178202 [http-nio-9102-exec-7] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:48 4178746 [http-nio-9102-exec-8] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:48 4178921 [http-nio-9102-exec-9] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:48 4179100 [http-nio-9102-exec-10] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:48 4179241 [http-nio-9102-exec-1] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:49 4179424 [http-nio-9102-exec-2] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:49 4179567 [http-nio-9102-exec-3] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:49 4179726 [http-nio-9102-exec-4] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:49 4179984 [http-nio-9102-exec-5] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:49 4180253 [http-nio-9102-exec-6] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:50 4180504 [http-nio-9102-exec-7] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:50 4180660 [http-nio-9102-exec-8] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:50 4180786 [http-nio-9102-exec-9] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:50 4180934 [http-nio-9102-exec-10] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:50 4181309 [http-nio-9102-exec-1] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:51 4181477 [http-nio-9102-exec-2] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:51 4181645 [http-nio-9102-exec-3] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:51 4181788 [http-nio-9102-exec-4] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:51 4182013 [http-nio-9102-exec-5] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:51 4182177 [http-nio-9102-exec-6] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:52 4182389 [http-nio-9102-exec-7] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:52 4182574 [http-nio-9102-exec-8] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:52 4182757 [http-nio-9102-exec-9] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:52 4182882 [http-nio-9102-exec-10] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:52 4183020 [http-nio-9102-exec-1] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:52 4183173 [http-nio-9102-exec-2] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:53 4183358 [http-nio-9102-exec-3] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:53 4183504 [http-nio-9102-exec-4] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:53 4183668 [http-nio-9102-exec-5] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:53 4183805 [http-nio-9102-exec-6] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:53 4183965 [http-nio-9102-exec-7] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:53 4184115 [http-nio-9102-exec-8] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:54 4184395 [http-nio-9102-exec-9] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:54 4184540 [http-nio-9102-exec-10] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:54 4185058 [http-nio-9102-exec-1] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:54 4185230 [http-nio-9102-exec-2] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:55 4185398 [http-nio-9102-exec-3] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:55 4185549 [http-nio-9102-exec-4] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:55 4185710 [http-nio-9102-exec-5] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:55 4185862 [http-nio-9102-exec-6] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:55 4186051 [http-nio-9102-exec-7] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:55 4186222 [http-nio-9102-exec-8] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:56 4186429 [http-nio-9102-exec-9] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:56 4186612 [http-nio-9102-exec-10] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:56 4186777 [http-nio-9102-exec-1] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:56 4186934 [http-nio-9102-exec-2] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:56 4187089 [http-nio-9102-exec-3] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:56 4187293 [http-nio-9102-exec-4] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:57 4187474 [http-nio-9102-exec-5] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:57 4187658 [http-nio-9102-exec-6] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:57 4188000 [http-nio-9102-exec-7] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:57 4188159 [http-nio-9102-exec-8] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:58 4188325 [http-nio-9102-exec-9] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:58 4188493 [http-nio-9102-exec-10] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:58 4188717 [http-nio-9102-exec-1] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:58 4188924 [http-nio-9102-exec-2] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:58 4189105 [http-nio-9102-exec-3] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:58 4189284 [http-nio-9102-exec-4] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:05:59 4189547 [http-nio-9102-exec-5] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:06:25 4215725 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2017-11-02 16:11:25 4515714 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2017-11-02 16:15:25 4755457 [http-nio-9102-exec-7] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:15:25 4755731 [http-nio-9102-exec-8] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:15:25 4755879 [http-nio-9102-exec-9] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:15:25 4756052 [http-nio-9102-exec-10] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:15:25 4756303 [http-nio-9102-exec-1] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:15:26 4756467 [http-nio-9102-exec-2] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:15:26 4756721 [http-nio-9102-exec-3] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:15:26 4756885 [http-nio-9102-exec-4] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:15:26 4757039 [http-nio-9102-exec-5] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:15:26 4757279 [http-nio-9102-exec-6] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:15:27 4757424 [http-nio-9102-exec-7] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:15:27 4757591 [http-nio-9102-exec-8] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:15:27 4757737 [http-nio-9102-exec-9] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:15:28 4758352 [http-nio-9102-exec-10] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:15:28 4758512 [http-nio-9102-exec-1] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:15:28 4758679 [http-nio-9102-exec-2] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:15:28 4758823 [http-nio-9102-exec-3] INFO  c.s.u.UserTrace2Application - =====call=tract2====
+2017-11-02 16:16:25 4815710 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2017-11-02 16:21:25 5115706 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2017-11-02 16:26:25 5415700 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2017-11-02 16:31:25 5715695 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2017-11-02 16:34:20 5890740 [Thread-25] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2f48b3d2: startup date [Thu Nov 02 14:56:12 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@43c1b556
+2017-11-02 16:34:20 5890774 [Thread-25] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application user-trace-2 with eureka with status DOWN
+2017-11-02 16:34:20 5890774 [Thread-25] WARN  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1509611660459, current=DOWN, previous=UP]
+2017-11-02 16:34:20 5890776 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USER-TRACE-2/172.27.35.92:user-trace-2:9102: registering service...
+2017-11-02 16:34:20 5890780 [Thread-25] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2017-11-02 16:34:20 5890781 [Thread-25] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2017-11-02 16:34:20 5890790 [Thread-25] ERROR c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.delete(WebResource.java:591)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.cancel(AbstractJerseyEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:885)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:863)
+	at com.netflix.discovery.DiscoveryClient$$FastClassBySpringCGLIB$$a84c8cb4.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.cloud.context.config.StandardBeanLifecycleDecorator$2.invoke(StandardBeanLifecycleDecorator.java:85)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient$$EnhancerBySpringCGLIB$$17640b84.shutdown(<generated>)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.deregister(EurekaServiceRegistry.java:71)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.stop(EurekaAutoServiceRegistration.java:82)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.onApplicationEvent(EurekaAutoServiceRegistration.java:126)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:256)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:177)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:140)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:991)
+	at org.springframework.context.support.AbstractApplicationContext$2.run(AbstractApplicationContext.java:929)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 46 common frames omitted
+2017-11-02 16:34:20 5890792 [Thread-25] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused
+2017-11-02 16:34:20 5890793 [Thread-25] ERROR c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.delete(WebResource.java:591)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.cancel(AbstractJerseyEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:885)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:863)
+	at com.netflix.discovery.DiscoveryClient$$FastClassBySpringCGLIB$$a84c8cb4.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.cloud.context.config.StandardBeanLifecycleDecorator$2.invoke(StandardBeanLifecycleDecorator.java:85)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient$$EnhancerBySpringCGLIB$$17640b84.shutdown(<generated>)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.deregister(EurekaServiceRegistry.java:71)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.stop(EurekaAutoServiceRegistration.java:82)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.onApplicationEvent(EurekaAutoServiceRegistration.java:126)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:256)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:177)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:140)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:991)
+	at org.springframework.context.support.AbstractApplicationContext$2.run(AbstractApplicationContext.java:929)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 47 common frames omitted
+2017-11-02 16:34:20 5890794 [Thread-25] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused
+2017-11-02 16:34:20 5890795 [Thread-25] ERROR c.netflix.discovery.DiscoveryClient - DiscoveryClient_USER-TRACE-2/172.27.35.92:user-trace-2:9102 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:885)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:863)
+	at com.netflix.discovery.DiscoveryClient$$FastClassBySpringCGLIB$$a84c8cb4.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.cloud.context.config.StandardBeanLifecycleDecorator$2.invoke(StandardBeanLifecycleDecorator.java:85)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient$$EnhancerBySpringCGLIB$$17640b84.shutdown(<generated>)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.deregister(EurekaServiceRegistry.java:71)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.stop(EurekaAutoServiceRegistration.java:82)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.onApplicationEvent(EurekaAutoServiceRegistration.java:126)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:256)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:177)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:140)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:991)
+	at org.springframework.context.support.AbstractApplicationContext$2.run(AbstractApplicationContext.java:929)
+2017-11-02 16:34:20 5890825 [Thread-25] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2017-11-02 16:34:20 5890825 [Thread-25] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@50720344: startup date [Thu Nov 02 14:56:24 CST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2f48b3d2
+2017-11-02 16:34:20 5890829 [Thread-25] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application user-trace-2 with eureka with status DOWN
+2017-11-02 16:34:20 5890910 [Thread-25] INFO  o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+2017-11-02 16:34:20 5890910 [Thread-25] INFO  o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147482647
+2017-11-02 16:34:20 5890912 [Thread-25] INFO  o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 0
+2017-11-02 16:34:20 5890913 [Thread-25] INFO  o.s.i.endpoint.EventDrivenConsumer - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2017-11-02 16:34:20 5890914 [Thread-25] INFO  o.s.i.c.PublishSubscribeChannel - Channel 'user-trace-2:9102.errorChannel' has 0 subscriber(s).
+2017-11-02 16:34:20 5890914 [Thread-25] INFO  o.s.i.endpoint.EventDrivenConsumer - stopped _org.springframework.integration.errorLogger
+2017-11-02 16:34:20 5890914 [Thread-25] INFO  o.s.i.e.SourcePollingChannelAdapter - stopped sleuthStreamSpanReporter.poll.inboundChannelAdapter
+2017-11-02 16:34:20 5890914 [Thread-25] INFO  o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase -2147482648
+2017-11-02 16:34:20 5890919 [Thread-25] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-11-02 16:34:20 5890923 [Thread-25] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Unregistering JMX-exposed beans
+2017-11-02 16:34:20 5890925 [Thread-25] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2017-11-02 16:34:20 5890927 [Thread-25] INFO  o.s.i.m.IntegrationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-11-02 16:34:20 5890930 [Thread-25] INFO  o.s.i.m.IntegrationMBeanExporter - Unregistering JMX-exposed beans
+2017-11-02 16:34:20 5890931 [Thread-25] INFO  o.s.i.m.IntegrationMBeanExporter - Summary on shutdown: sleuth
+2017-11-02 16:34:20 5890931 [Thread-25] INFO  o.s.i.m.IntegrationMBeanExporter - Summary on shutdown: nullChannel
+2017-11-02 16:34:20 5890931 [Thread-25] INFO  o.s.i.m.IntegrationMBeanExporter - Summary on shutdown: errorChannel
+2017-11-02 16:34:20 5890932 [Thread-25] INFO  o.s.i.m.IntegrationMBeanExporter - Summary on shutdown: _org.springframework.integration.errorLogger.handler
+2017-11-02 16:34:20 5890932 [Thread-25] INFO  o.s.i.m.IntegrationMBeanExporter - Summary on shutdown: org.springframework.integration.endpoint.MethodInvokingMessageSource@269a37bc
+2017-11-02 16:34:20 5890932 [Thread-25] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-11-02 16:34:20 5890935 [Thread-25] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
